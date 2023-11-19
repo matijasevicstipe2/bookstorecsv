@@ -4,7 +4,7 @@ require 'csv'
 
 def extract_books_after_year(file_path, year)
   books = []
-  CSV.foreach(file_path, headers: true) do |row|
+  CSV.foreach(file_path, headers: true, quote_char: '"') do |row|
     title = row['title']
     author = row['author']
     publication_year = row['publication_year'].to_i
@@ -20,6 +20,6 @@ def extract_books_after_year(file_path, year)
 end
 
 # Example usage:
-file_path = 'books.csv'
+file_path = 'lib/data/books.csv'
 year = 2010
 extract_books_after_year(file_path, year)
