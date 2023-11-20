@@ -32,16 +32,16 @@ Responsible for parsing the CSV file containing book details and extracting titl
 
 ### `main.rb`
 ```bash
-Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv\lib>
+# Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv\lib>
 ruby main.rb
-Follow the prompts to enter the year or 'q' to quit.
+# Follow the prompts to enter the year or 'q' to quit.
 
 ruby main.rb 2010
-Parses books published after the year 2010.
+# Parses books published after the year 2010.
 ```
 
 ### `book_parser_test.rb`
 ```bash
-Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv>
+# Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv>
 ruby test/book_parser_test.rb
 ```
