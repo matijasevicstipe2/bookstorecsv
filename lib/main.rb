@@ -16,7 +16,6 @@ def main(year = nil)
     end
   else
     extract_books_after_year(file_path, year)
-    puts "/"
   end
 end
 

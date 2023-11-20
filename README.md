@@ -10,14 +10,14 @@ This program parses a CSV file containing a list of books and extracts titles pu
 ## How to Run
 1. Clone the repository.
 2. Ensure you have Ruby installed.
-3. Open a terminal and navigate to the lib folder in a project directory.
+3. Open a terminal and navigate to the lib folder inside your project directory.
 4. Run `ruby main.rb` to interactively enter the year or `ruby main.rb <year>` to directly parse books published after a specific year.
 
 ## Running Tests
 The project uses Minitest for unit and integration testing.
 
 To run the tests:
-1. Make sure you're in the lib folder in a project directory in the terminal.
+1. Ensure that you are located within the 'lib' directory inside your project using the terminal.
 2. Run `ruby test/<test_file_name>.rb` to execute a specific test file.
 
 ## File Descriptions
