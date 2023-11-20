@@ -17,7 +17,7 @@ This program parses a CSV file containing a list of books and extracts titles pu
 The project uses Minitest for unit and integration testing.
 
 To run the tests:
-1. Ensure that you are located within the 'lib' directory inside your project using the terminal.
+1. Ensure that you are located within root directory within your project using the terminal.
 2. Run `ruby test/<test_file_name>.rb` to execute a specific test file.
 
 ## File Descriptions
@@ -32,8 +32,14 @@ Responsible for parsing the CSV file containing book details and extracting titl
 
 ### `main.rb`
 ```bash
+# Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv\lib>
 ruby main.rb
 # Follow the prompts to enter the year or 'q' to quit.
 
 ruby main.rb 2010
 # Parses books published after the year 2010.
+
+### `book_parser_test.rb`
+```bash
+# Example directory --> PS C:\Users\stipe\RubymineProjects\bookstorecsv>
+ruby test/book_parser_test.rb
